@@ -9,7 +9,7 @@ Scientific Voice Research Grant, from Stanford otolaryngology department for thi
 contains 296 voice samples that have been GRBAS rated by experienced voice professionals [1]. All recordings
 were made in a quiet clinical environment using a head-mounted condenser microphone at a 6-centimeter
 distance from the corner of the mouth and the Computerized Speech Lab (CSL) using 16-bit encryption with a
-sampling rate of 48kHz [1]
+sampling rate of 48kHz [1].
 
 
 As mentioned above the Stanford dataset only contains 296 different voice samples which is a small dataset
@@ -20,10 +20,12 @@ that has been created for a similar reason and has similar audiofiles as we are 
 be found at [2]. The pre-training is accomplished in the file 'pretraining_model'.
 
 
-Finally, the model is trained on the actual dataset in the file 'voiceNet'. All of the files can be downloaded
-and run on google Colab. Note though that the files for the stanford and German dataset is not uploaded on GitHub.
-The German dataset can be reached via [2] however, we did not publish the Stanford dataset because we are not the 
-owners of the files. The results can be seen on notebook.
+Finally, the model is trained on the actual dataset in the file 'voiceNet' and 'voiceNet_different_param. The only
+difference between these two files is that some of the hyperparameters are changed and the learning rate is decreased
+two times instead of one. However, the accuracy seems to be similar in the two cases. All of  the files can be 
+downloaded and run on google Colab. Note though that the files for the stanford and German dataset is not uploaded 
+on GitHub. The German dataset can be reached via [2] however, we did not publish the Stanford dataset because we are 
+not the owners of the files. The results can be seen on notebook.
 
 
 
