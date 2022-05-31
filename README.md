@@ -20,12 +20,15 @@ that has been created for a similar reason and has similar audiofiles as we are 
 be found at [2]. The pre-training is accomplished in the file 'pretraining_model'.
 
 
-Finally, the model is trained on the actual dataset in the file 'voiceNet' and 'voiceNet_different_param. The only
-difference between these two files is that some of the hyperparameters are changed and the learning rate is decreased
-two times instead of one. However, the accuracy seems to be similar in the two cases. All of  the files can be 
-downloaded and run on google Colab. Note though that the files for the stanford and German dataset is not uploaded 
-on GitHub. The German dataset can be reached via [2] however, we did not publish the Stanford dataset because we are 
-not the owners of the files. The results can be seen on notebook.
+Finally, the model is trained on the actual dataset in the file 'voiceNet_objective' file. Other trials have been
+done in the files 'other_parameters/voiceNet_different_param' and 'other_parameters/voiceNet_sota'. The only 
+difference between these three files is that some of the hyperparameters are changed to see how the system behaves 
+with differnet parameters. However, the accuracy varies a little between these approaches but overall the accuracy
+is still quite high.
+
+All of  the files can be downloaded and run on google Colab. Note though that the files for the stanford and German 
+dataset is not uploaded on GitHub. The German dataset can be reached via [2] however, we did not publish the Stanford
+dataset because we are not the owners of the files. The results can be seen on notebook.
 
 
 
